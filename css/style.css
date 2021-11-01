@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#E5E5E5;
+}
+
+.pro {
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+.main_container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+.sidebar {
+    background-color: #1E2939;
+}
+.main_content {
+
+}
+
+.aboutme {
+
+}
+
+.projects {
+
+}
+
+.work {
+
+}
+
+.edu {
+
+}
+
