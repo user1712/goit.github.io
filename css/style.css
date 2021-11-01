@@ -15,9 +15,7 @@ body {
     background-color: #fff;
     margin: 40px auto;
 }
-.sidebar {
-    background-color: #1E2939;
-}
+
 .main_content {
 
 }
@@ -38,3 +36,68 @@ body {
 
 }
 
+/* Sidebar */
+
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+    padding-top: 40px;
+}
+
+.contacts {
+    margin: 50px 0 0 40px;
+}
+
+.tech {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar_title {
+    color: #fff;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.ntype {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 7px;
+}
+
+.nlink {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A;
+}
+
+.tech_list {
+    padding: 0 0 0 17px;
+}
+.tech_item {
+    color: #FB6D3A;
+}
+
+.tech_text {
+    color: #FFFFFF;
+}
+
+/* SOFT */
+.soft {
+    margin: 50px 0 0 40px;
+}
+.soft_list {
+    padding: 0 0 0 17px;
+}
+.soft_item {
+    color: #FB6D3A;
+}
+.soft_text {
+    color: #FFFFFF;
+}
