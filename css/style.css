@@ -4,9 +4,122 @@ body {
 }
 
 .pro {
-    font-weight: 700;
     font-size: 14px;
     color: black;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+/* about me */
+.aboutme {
+    margin-bottom: 40px;
+}
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.about_desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+.main_content_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+/* projects */
+.my_projects_list {
+    padding: 0 0 0 17px;
+}
+.my_project_item {
+    font-weight: bold;
+    color: black;
+}
+.my_projects_text {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 5px;
+}
+.my_projects_link {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.dujka {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.projects {
+    margin-bottom: 50px;
+}
+/* work */
+.orange {
+    color: #FB6D3A;
+}
+.work_position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0px 0 10px 0;
+}
+.razdelitel {
+    color: #000;
+}
+.ule {
+    padding: 0 0 0 18px;
+}
+.duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.company {
+    margin: 0 15px 0 0px;
+}
+/* edu */
+.edu_style {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.manage {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
 }
 .main_container {
     display: flex;
@@ -14,26 +127,10 @@ body {
     width: 1200px;
     background-color: #fff;
     margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-
 .main_content {
-
-}
-
-.aboutme {
-
-}
-
-.projects {
-
-}
-
-.work {
-
-}
-
-.edu {
-
+  padding: 100px 90px;
 }
 
 /* Sidebar */
@@ -46,10 +143,12 @@ body {
 
 .contacts {
     margin: 50px 0 0 40px;
+    line-height: 24px;
 }
 
 .tech {
     margin: 50px 0 0 40px;
+    line-height: 24px;
 }
 
 .sidebar_title {
@@ -91,9 +190,11 @@ body {
 /* SOFT */
 .soft {
     margin: 50px 0 0 40px;
+    line-height: 24px;
 }
 .soft_list {
     padding: 0 0 0 17px;
+    
 }
 .soft_item {
     color: #FB6D3A;
